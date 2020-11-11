@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+    <v_section width="100%" height="60%">
+        <h_section width="100%" height="25px">
+
+        </h_section>
+        <v_section width="100%" height="100%">
+
+        </v_section>
+    </v_section>
+    <v_section width="100%" height="60%">
+        <v_section width="100%" height="100%">
+
+        </v_section>
+    </v_section>
+</page>

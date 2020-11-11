@@ -7,13 +7,14 @@ import net.sf.saxon.lib.Feature;
 import javax.xml.xquery.*;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class Processor {
 
     public static void main (String... args) throws IOException, XQException {
         XqueryAccessor accessor = new XqueryAccessor("resources");
 
-        XQSequence result = accessor.executeFile("request.xq");
+        XQSequence result = accessor.executeFile("section-transform-1.xq");
         result.writeSequence(System.out, null);
 
         /* XQSequence result = accessor.executeFile("rename.xq");
